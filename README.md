@@ -143,11 +143,15 @@ Once the entire setup is complete, you can select the 'wled' controller type in 
 # The following network services are currently supported by Hyperk:
 
 Service 	        Port 	Protocol / Description
+-------------------------------------------------------------------
 Web GUI 	        80 	Device configuration
+-------------------------------------------------------------------
 UDP DDP 	        4048 	DDP listener
-UDP RealTime 	        21324 	Real-time stream listener
-UDP Raw RGB 	        5568 	Raw color stream listener
-
+-------------------------------------------------------------------
+UDP RealTime 	    21324 	Real-time stream listener
+-------------------------------------------------------------------
+UDP Raw RGB 	    5568 	Raw color stream listener
+-------------------------------------------------------------------
 A dedicated DDP driver will soon be available for HyperHDR.
 For more information, please visit the developer's website at https://github.com/awawa-dev/Hyperk.
 
