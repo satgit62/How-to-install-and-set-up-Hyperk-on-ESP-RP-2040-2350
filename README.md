@@ -2,7 +2,7 @@
 
 A high-performance Wi-Fi/LAN LED controller for the ESP8266 and ESP32 families, including the S2, S3, C2, C3, C5, and C6, as well as the Raspberry Pi Pico RP2040 and RP2350. 
 
-The Hyperk is a powerful yet minimalist Wi-Fi LED driver optimized for use with HyperHDR. Its modern code eliminates unnecessary complexity and focuses on the essentials, offering low latency and optimal calibration of RGB and white LED channels (including white channel calibration). Hyperk is a true alternative to overloaded WLED drivers. Hyperk also seamlessly integrates with all Ambilight platforms, including HyperHDR. See: https://github.com/awawa-dev/Hyperk 
+The Hyperk is a powerful yet minimalist Wi-Fi LED driver optimized for use with HyperHDR. Its modern code eliminates unnecessary complexity and focuses on the essentials, offering low latency and optimal RGB and white channel calibration. Hyperk is a true alternative to overloaded WLED drivers. Hyperk also seamlessly integrates with all Ambilight platforms, including HyperHDR. See: https://github.com/awawa-dev/Hyperk 
 
 This guide will show you how to install the Hyperk LED controller on ESP boards and other compatible controllers.
 
