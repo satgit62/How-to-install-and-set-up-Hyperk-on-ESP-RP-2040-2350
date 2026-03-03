@@ -152,7 +152,7 @@ A dedicated DDP driver will soon be available for HyperHDR.
 For more information, please visit the developer's website at https://github.com/awawa-dev/Hyperk.
 
 
-# Users of the ESP32-S2 Mini (Lolin)
+# Alternative flash mode of the ESP32-S2 Mini (Lolin)
 
 Since flashing the ESP32-S2 Mini via the web tool (https://awawa-dev.github.io/hyperk/installer.html) can be unstable and unsuccessful, here is an alternative flashing method using esptool via the command line in Windows PowerShell or the Linux terminal.
 
