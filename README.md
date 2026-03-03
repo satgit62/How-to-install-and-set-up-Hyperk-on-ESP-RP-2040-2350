@@ -54,6 +54,8 @@ To do this, download the latest version of Hyperk from the GitHub page (for exam
 In both cases, the boards run in AP mode after a reset as soon as the ESP has been flashed or the Hyperk.uf2 file has been copied to the RP data carrier. This allows you to log into the Wi-Fi network named 'Hyperk' via the Wi-Fi connection of your PC, mobile phone, or tablet and complete the initial installation by setting up the Wi-Fi network with an SSID and password.
 Please note that some boards require a manual restart after flashing to switch to AP mode.
 
+# Hyperk AP mode
+
 <img width="450" height="562" alt="Hyperk AP-Settup" src="https://github.com/user-attachments/assets/4b9fba92-7ab9-49d1-9523-ab9675903711" />
 
 <img width="1885" height="764" alt="Hyperk WiFi Configuration" src="https://github.com/user-attachments/assets/f70b5df2-4088-477b-a712-20e9ea5b30ef" />
