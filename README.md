@@ -21,6 +21,8 @@ I encountered a problem where some boards with CH340/341 serial ESPs could not b
 Please also note that you may need to manually switch certain boards to DFU/Flash mode, as this does not always happen automatically. This can be done by pressing a specific button or key combination on the front of the ESP board.
 Check the information sheets for your ESP board to see if this is necessary.
 
+# Hyperk Advanced Firmware Flasher
+
 <img width="1838" height="759" alt="Advanced Firmware Flasher1a com" src="https://github.com/user-attachments/assets/6a2e41fc-4ed8-4c34-af2a-dc2232ef4837" />
 
 <img width="1809" height="777" alt="Advanced Firmware Flasher1b com" src="https://github.com/user-attachments/assets/c7f4171b-fe7e-4cf1-8ffe-5e39d89710a2" />
