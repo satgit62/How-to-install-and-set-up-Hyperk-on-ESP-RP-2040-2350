@@ -15,7 +15,8 @@ To do this, enter the following address in the browser:
 ```https://awawa-dev.github.io/hyperk/installer.html``` and follow the instructions.
 # Note
 To flash via a web browser using the serial interface and USB data cable, you must ensure that the necessary CH340 and CP210x drivers for specific ESP boards are installed on your operating system.
-Please note that I encountered an issue where some boards with CH340/341 serial ESPs could not be flashed under Windows 11 (25H2). It was only possible to flash them without any problems after downgrading the CH340/341 driver (DriverVer = 30.01.2019 or 3.5.2019.1).
+
+I encountered a problem where some boards with CH340/341 serial ESPs could not be flashed under Windows 11 (25H2). Flashing was only possible without problems after downgrading the CH340/341 driver (DriverVer = 30.01.2019 or 3.5.2019.1).
 
 Please also note that you may need to manually switch certain boards to DFU/Flash mode, as this does not always happen automatically. This can be done by pressing a specific button or key combination on the front of the ESP board.
 Check the information sheets for your ESP board to see if this is necessary.
