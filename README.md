@@ -211,3 +211,7 @@ PS C:\esptool>
 ```
 
 Press the reset button to put the ESP32-S2 Mini into AP mode so that you can enter the Wi-Fi and password data for the initial installation.
+
+# Credits
+* [awawa-dev](https://github.com/awawa-dev/Hyperk) - For Origin of the code/For the great functionality.
+
