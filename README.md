@@ -6,7 +6,9 @@ The Hyperk is a powerful yet minimalist Wi-Fi LED driver optimized for use with 
 
 This guide will show you how to install the Hyperk LED controller on ESP boards and other compatible controllers.
 
-# Scenario 1
+Depending on which hardware you want to use for Hyperk, there are three possible approaches.
+
+# Option 1
 You have a brand new ESP board:
 
 * Espressif: ESP8266, ESP32, ESP32-S2, ESP32-S3, ESP32-C2, ESP32-C3, ESP32-C5, ESP32-C6, WT32-ETH01
@@ -36,7 +38,7 @@ Check the information sheets for your ESP board to see if this is necessary.
 <img width="1875" height="834" alt="Advanced Firmware Flasher installing complete " src="https://github.com/user-attachments/assets/54fb6c8b-a239-46f6-98ab-7073aaa2d999" />
 
 
-# Scenario 2
+# Option 2
 You have a brand new RP board:
 
 * Raspberry Pi Pico (UF2): RP2040 and RP2350.
@@ -67,7 +69,7 @@ After you have logged into Hyperk's AP, set up and saved the SSID and password, 
 <img width="1896" height="310" alt="Welcome to Hyperk Controller" src="https://github.com/user-attachments/assets/814decf0-ecf4-4621-8476-102347578623" />
 
 
-# Scenario 3
+# Option 3
 You already have an ESP board with WLED firmware:
 
 You can conveniently download the OTA update option for the WLED controller and the corresponding flash image for your board.
