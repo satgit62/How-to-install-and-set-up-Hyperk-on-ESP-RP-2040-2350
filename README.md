@@ -137,14 +137,17 @@ When using RGBW LEDs, you can select 'Set Cold' or 'Set Neutral' in the next sec
 
 5. Click Save Setting to save the individual settings you have made.
 
-6. HyperHDR
+# HyperHDR
 
-Once the entire setup is complete, you can select the 'wled' controller type in the 'LED Hardware' menu of HyperHDR or Hypereion.NG. If the IP address hyperl.local is not recognized under 'Select wled', the IP address of the Hyperk must be entered. You must then configure the LEDs accordingly under 'LED Layout'.
+Once the entire setup is complete, you can select the controller type 'wled' or 'udpraw' in the LED Hardware menu of HyperHDR. If the IP address hyperl.local is not recognized in 'wled' under 'Select wled', the IP address of the Hyperk must be entered.
+When configuring Hyperk under LED controller udpraw’`', you must enter the IP address of your Hyperk and port 5568.
+You must then configure the LEDs accordingly under LED Layout menu. 
 
 <img width="1375" height="863" alt="HyperHDR LED-Controller wled" src="https://github.com/user-attachments/assets/47ad4d6a-40ab-44c5-b0a1-e8b86849be98" />
 
+<img width="1277" height="844" alt="udpraw" src="https://github.com/user-attachments/assets/62cec164-45a3-4253-a534-92a008d9edab" />
 
-# The following network services are currently supported by Hyperk:
+The following network services are currently supported by Hyperk:
 
 <img width="601" height="264" alt="Protocol" src="https://github.com/user-attachments/assets/15bf6145-a2a8-4d44-b56f-5343f5a5a959" />
 
