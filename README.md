@@ -11,7 +11,7 @@ You have a brand new ESP board:
 
 * Espressif: ESP8266, ESP32, ESP32-S2, ESP32-S3, ESP32-C2, ESP32-C3, ESP32-C5, ESP32-C6, WT32-ETH01
 
-In this case, you can flash the board directly via a web browser, such as Chrome or Microsoft Edge, using a USB data cable and the [Advanced Firmware Flasher]([https://meinprojekt.de](https://awawa-dev.github.io/hyperk/installer.html). (Please note that Mozilla Firefox is not currently supported.)
+In this case, you can flash the board directly via a web browser, such as Chrome or Microsoft Edge, using a USB data cable and the [Advanced Firmware Flasher](https://awawa-dev.github.io/hyperk/installer.html). (Please note that Mozilla Firefox is not currently supported.)
 
 # Note
 To flash via a web browser using the serial interface and USB data cable, you must ensure that the necessary CH340 and CP210x drivers for specific ESP boards are installed on your operating system.
