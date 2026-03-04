@@ -56,6 +56,8 @@ Please note that some boards require a manual restart after flashing to switch t
 
 # Hyperk AP mode
 
+<img width="843" height="663" alt="Post Flash Setup" src="https://github.com/user-attachments/assets/301e7d53-b79b-4d09-bd2b-fcf48782ceb0" />
+
 <img width="450" height="562" alt="Hyperk AP-Settup" src="https://github.com/user-attachments/assets/4b9fba92-7ab9-49d1-9523-ab9675903711" />
 
 <img width="1885" height="764" alt="Hyperk WiFi Configuration" src="https://github.com/user-attachments/assets/f70b5df2-4088-477b-a712-20e9ea5b30ef" />
