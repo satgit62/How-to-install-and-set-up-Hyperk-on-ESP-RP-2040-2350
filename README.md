@@ -86,7 +86,7 @@ Then proceed to the WLED Manual OTA Update.
 The same applies to the ESP32 WT32-ETH01 board with a LAN interface and compatible LED controller devices.
 The board can be operated via LAN if it is connected to a network or router. If no LAN cable is connected, the board can be operated via WLAN if the SSID and password are set up. Please note that the ESP32-ETH01 automatically receives two different IP addresses, one for the LAN and one for the WLAN.
 
-[Post-Flash Setup](#Hyperk AP mode-id)
+[Post-Flash Setup](#Hyperk AP mode)
 
 After completing the initial installation with the SSID and Wi-Fi password, you can configure the Hyperk LED controller's other settings.
 On the start page/home page at ```hyperk.local``` of the Hyperk LED controller app, you will be greeted with the message 'Welcome to Hyperk Controller'. Use the menu above to control LEDs, change settings, or view system information. There you will find the 'Settings' and 'Stats' menus.
