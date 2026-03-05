@@ -149,11 +149,17 @@ Alternatively, you can also find the Hyperk LED controller under 'wled' or 'udpr
 
 When using Hyperk with Hyperion.NG, you must select 'wled' or 'udraw' under LED Controllers in the LED Hardware menu.
 If Autodiscovery does not find Hyperk under 'wled', enter the IP address of the Hyperk LED controller.
+
+<img width="1904" height="1024" alt="Wled Hyperk" src="https://github.com/user-attachments/assets/156cdd7d-cfa7-4789-8d0e-d5736dd56224" />
+
 If you are using 'udraw', enter the IP address of the Hyperk LED controller and port 5568.
 
+<img width="1906" height="1079" alt="Hyperk udpraw" src="https://github.com/user-attachments/assets/fbda08a6-5dae-46dc-95c4-242d30262935" />
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 The following network services are currently supported by Hyperk:
+
 
 <img width="601" height="264" alt="Protocol" src="https://github.com/user-attachments/assets/15bf6145-a2a8-4d44-b56f-5343f5a5a959" />
 
