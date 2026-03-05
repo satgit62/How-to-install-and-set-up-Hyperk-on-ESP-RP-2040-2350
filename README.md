@@ -233,6 +233,11 @@ Press the reset button to put the ESP32-S2 Mini into AP mode so that you can ent
 # ESP/compatible hardware
 You can find possible ESP/compatible hardware and circuit diagrams for using Hyperk in another guide I wrote. See: https://github.com/satgit62/How-to-Install-and-set-up-Ambilight-on-LG-webOS#hardware-and-wiring-diagram
 
+# Download
+Hyperk current version at: https://github.com/awawa-dev/Hyperk/releases
+HyperHDR current versions at: https://github.com/awawa-dev/HyperHDR/actions
+HyperHDR current versions for webOS at: [https://github.com](https://github.com/satgit62/satgit62.github.io/releases/download/v0.2.0-alpha/org.webosbrew.hyperhdr.loader_0.3.6_hyperk_all.ipk)
+
 # Credits
 * [awawa-dev](https://github.com/awawa-dev/Hyperk) - For Origin of the **Hyperk** code/For the great functionality.
 
