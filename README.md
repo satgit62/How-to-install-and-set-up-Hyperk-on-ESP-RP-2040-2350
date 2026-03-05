@@ -139,10 +139,12 @@ When using RGBW LEDs, you can select 'Set Cold' or 'Set Neutral' in the next sec
 <img width="1836" height="834" alt="Firmware Update (OTA)1" src="https://github.com/user-attachments/assets/b4742410-5c81-4ccc-9c0b-e42056bdfcb2" />
 
 5. Click Save Setting to save the individual settings you have made.
+   
 
 # HyperHDR
 
 A DDP/Hyperk driver has been implemented in the HyperHDR master.
+
 Once the entire setup is complete, you can select and configure the 'hyperk' controller type in the LED hardware menu in the new version of HyperHDR.
 
 <img width="1290" height="1079" alt="HyperHDR Controller type Hyperk" src="https://github.com/user-attachments/assets/62922527-41f1-4a2b-99f0-fbdd2fc5b1f7" />
