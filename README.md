@@ -6,7 +6,7 @@ The Hyperk is a powerful yet minimalist Wi-Fi LED driver optimized for use with 
 
 This guide will show you how to install the Hyperk LED controller on ESP boards and other compatible controllers.
 
-Depending on which hardware you want to use for Hyperk, there are three possible approaches.
+Depending on which hardware you want to use for Hyperk, there are two possible approaches.
 
 # Option 1
 You have a brand new ESP board:
@@ -36,6 +36,10 @@ Check the information sheets for your ESP board to see if this is necessary.
 <img width="1876" height="844" alt="Advanced Firmware Flasher installing vorschritt" src="https://github.com/user-attachments/assets/28f5c44f-976e-451d-8b14-031ca64a6d98" />
 
 <img width="1875" height="834" alt="Advanced Firmware Flasher installing complete " src="https://github.com/user-attachments/assets/54fb6c8b-a239-46f6-98ab-7073aaa2d999" />
+
+# ESP32 WT32-ETH01 board with LAN interface and compatible LED controller devices.
+
+The board can be operated via LAN when connected to a network or router. If no LAN cable is connected, the board can be operated via Wi-Fi, provided that the SSID and password are set up. Please note that the ESP32-ETH01 automatically receives two different IP addresses, one for the LAN and one for the Wi-Fi.
 
 
 # Option 2
@@ -68,25 +72,6 @@ After you have logged into Hyperk's AP, set up and saved the SSID and password, 
 
 <img width="1896" height="310" alt="Welcome to Hyperk Controller" src="https://github.com/user-attachments/assets/814decf0-ecf4-4621-8476-102347578623" />
 
-
-# Option 3
-You already have an ESP board with WLED firmware:
-
-You can conveniently download the OTA update option for the WLED controller and the corresponding flash image for your board.
-Download the latest version of Hyperk from the GitHub page (e.g., https://github.com/awawa-dev/Hyperk/releases/tag/0.0.2-alpha.6) and load the 'OTA_Hyperk_xx_xx.bin' file.
-
-In the WLED settings, go to 'WLED Security and Updates'.
-
-<img width="711" height="862" alt="WLED Security   Updates" src="https://github.com/user-attachments/assets/6aefecdc-24e9-46b1-b3e5-6a7e68df4ad5" />
-
-Then proceed to the WLED Manual OTA Update.
-
-<img width="962" height="576" alt="WLED Manual OTA Update" src="https://github.com/user-attachments/assets/331aa09b-9aab-45e3-8c12-77b79dabf206" />
-<img width="1142" height="702" alt="WLED Software Update" src="https://github.com/user-attachments/assets/89d5ddb1-28d2-4414-8648-cf2f6d5581b0" />
-<img width="801" height="498" alt="WLED Software Update1" src="https://github.com/user-attachments/assets/1a382889-2731-4888-aadd-adb844ccdd1d" />
-
-The same applies to the ESP32 WT32-ETH01 board with a LAN interface and compatible LED controller devices.
-The board can be operated via LAN if it is connected to a network or router. If no LAN cable is connected, the board can be operated via WLAN if the SSID and password are set up. Please note that the ESP32-ETH01 automatically receives two different IP addresses, one for the LAN and one for the WLAN.
 
 [Post-Flash Setup](#hyperk-ap-mode)
 
