@@ -144,10 +144,17 @@ Alternatively, you can also find the Hyperk LED controller under 'wled' or 'udpr
 
 <img width="1272" height="823" alt="udpraw" src="https://github.com/user-attachments/assets/a87833dd-b75a-467d-981d-7b9a8baeb52c" />
 
+
+# Hyperion.NG
+
+When using Hyperk with Hyperion.NG, you must select 'wled' or 'udraw' under LED Controllers in the LED Hardware menu.
+If Autodiscovery does not find Hyperk under 'wled', enter the IP address of the Hyperk LED controller.
+If you are using 'udraw', enter the IP address of the Hyperk LED controller and port 5568.
+
+
 The following network services are currently supported by Hyperk:
 
 <img width="601" height="264" alt="Protocol" src="https://github.com/user-attachments/assets/15bf6145-a2a8-4d44-b56f-5343f5a5a959" />
-
 
 
 # Alternative flash mode of the ESP32-S2 Mini (Lolin)
