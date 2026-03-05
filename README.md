@@ -129,13 +129,9 @@ When using RGBW LEDs, you can select 'Set Cold' or 'Set Neutral' in the next sec
 
 * Device Name (MDNS): The name of the device is specified here.
 * Extra MDNS Tag: Here you can specify an alternative MDNS tag such as wled.
+* Switch to AP: If you want to switch WiFi networks, you can switch to AP mode and set up your new network with SSID and password.
 
-<img width="1859" height="500" alt="Network" src="https://github.com/user-attachments/assets/d098fa2a-1555-47f2-8a71-17f05c32e921" />
-
-* Switch to AP
-If you want to switch WiFi networks, you can switch to AP mode and set up your new network with SSID and password.
-
- <img width="1847" height="859" alt="Network Switch to AP" src="https://github.com/user-attachments/assets/2f8a655c-e9b2-49f2-9744-7336d7aca571" />
+<img width="1847" height="859" alt="Network Switch to AP" src="https://github.com/user-attachments/assets/2f8a655c-e9b2-49f2-9744-7336d7aca571" />
 
 4. Firmware Update (OTA): Here you can check which firmware version is currently installed on your board and whether a new version is available for update. If necessary, you can then transfer it.
 
