@@ -235,7 +235,9 @@ You can find possible ESP/compatible hardware and circuit diagrams for using Hyp
 
 # Download
 Hyperk current version at: https://github.com/awawa-dev/Hyperk/releases
+
 HyperHDR current versions at: https://github.com/awawa-dev/HyperHDR/actions
+
 HyperHDR current versions for webOS at: [https://github.com](https://github.com/satgit62/satgit62.github.io/releases/download/v0.2.0-alpha/org.webosbrew.hyperhdr.loader_0.3.6_hyperk_all.ipk)
 
 # Credits
