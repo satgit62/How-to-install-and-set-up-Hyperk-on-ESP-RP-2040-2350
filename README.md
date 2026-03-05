@@ -152,6 +152,7 @@ If Autodiscovery does not find Hyperk under 'wled', enter the IP address of the 
 If you are using 'udraw', enter the IP address of the Hyperk LED controller and port 5568.
 
 
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 The following network services are currently supported by Hyperk:
 
 <img width="601" height="264" alt="Protocol" src="https://github.com/user-attachments/assets/15bf6145-a2a8-4d44-b56f-5343f5a5a959" />
