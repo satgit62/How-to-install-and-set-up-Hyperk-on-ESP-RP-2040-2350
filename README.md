@@ -132,6 +132,11 @@ When using RGBW LEDs, you can select 'Set Cold' or 'Set Neutral' in the next sec
 
 <img width="1859" height="500" alt="Network" src="https://github.com/user-attachments/assets/d098fa2a-1555-47f2-8a71-17f05c32e921" />
 
+* Switch to AP
+If you want to switch WiFi networks, you can switch to AP mode and set up your new network with SSID and password.
+
+ <img width="1847" height="859" alt="Network Switch to AP" src="https://github.com/user-attachments/assets/2f8a655c-e9b2-49f2-9744-7336d7aca571" />
+
 4. Firmware Update (OTA): Here you can check which firmware version is currently installed on your board and whether a new version is available for update. If necessary, you can then transfer it.
 
 <img width="1851" height="674" alt="Firmware Update (OTA)" src="https://github.com/user-attachments/assets/ef8a02b9-877f-40a3-9006-5a749153a01b" />
@@ -141,9 +146,16 @@ When using RGBW LEDs, you can select 'Set Cold' or 'Set Neutral' in the next sec
 
 # HyperHDR
 
-Once the entire setup is complete, you can select the controller type 'wled' or 'udpraw' in the LED Hardware menu of HyperHDR. If the IP address hyperl.local is not recognized in 'wled' under 'Select wled', the IP address of the Hyperk must be entered.
-When configuring Hyperk under LED controller 'udpraw', you must enter the IP address of your Hyperk and port 5568.
-You must then configure the LEDs accordingly under LED Layout menu. 
+A DDP/Hyperk driver has been implemented in the HyperHDR master.
+Once the entire setup is complete, you can select and configure the 'hyperk' controller type in the LED hardware menu in the new version of HyperHDR.
+
+<img width="1290" height="1079" alt="HyperHDR Controller type Hyperk" src="https://github.com/user-attachments/assets/62922527-41f1-4a2b-99f0-fbdd2fc5b1f7" />
+
+<img width="1304" height="1079" alt="Hyperk White LED algorithm" src="https://github.com/user-attachments/assets/1c171f1e-9093-4cb7-9f91-4f4628e219ba" />
+
+
+Alternatively, you can also find the Hyperk LED controller under 'wled' or 'udpraw', see images.
+
 
 <img width="1375" height="863" alt="HyperHDR LED-Controller wled" src="https://github.com/user-attachments/assets/47ad4d6a-40ab-44c5-b0a1-e8b86849be98" />
 
