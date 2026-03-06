@@ -156,6 +156,22 @@ If you are using 'udraw', enter the IP address of the Hyperk LED controller and 
 
 <img width="1906" height="1079" alt="Hyperk udpraw" src="https://github.com/user-attachments/assets/fbda08a6-5dae-46dc-95c4-242d30262935" />
 
+
+# EnigmaLight (Enigma2)
+
+In the EnigmaLight settings editor, set the following under 'Device':
+
+* Device type:    NodeMCU UDP
+* NodeMCU IP:     the IP address of the Hyperk LED controller
+* NodeMCU port:   05568
+* Interval:       040000
+
+All other settings must correspond to your LED layout and be saved at the end with Create Config (green button).
+
+![enigmaloght configurationseditor](https://github.com/user-attachments/assets/14e07660-866d-420d-a919-a16eebf30a7d)
+
+![enigmalight](https://github.com/user-attachments/assets/f163cccc-17af-461f-8836-67eea6cce3b4)
+
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 The following network services are currently supported by Hyperk:
