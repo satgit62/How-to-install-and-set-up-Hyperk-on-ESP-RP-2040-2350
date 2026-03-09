@@ -150,6 +150,9 @@ Alternatively, you can also find the Hyperk LED controller under 'wled' or 'udpr
 # Hyperion.NG
 
 When using Hyperk with Hyperion.NG, you must select 'wled' or 'udraw' under LED Controllers in the LED Hardware menu.
+
+<img width="1890" height="866" alt="Hyperion NG Hyperk" src="https://github.com/user-attachments/assets/e08c7669-4251-4311-a4c7-12898334f60e" />
+
 If Autodiscovery does not find Hyperk under 'wled', enter the IP address of the Hyperk LED controller.
 
 <img width="1904" height="1024" alt="Wled Hyperk" src="https://github.com/user-attachments/assets/156cdd7d-cfa7-4789-8d0e-d5736dd56224" />
