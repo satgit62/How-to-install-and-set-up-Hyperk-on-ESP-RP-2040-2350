@@ -258,7 +258,7 @@ Hyperk current version at: https://github.com/awawa-dev/Hyperk/releases
 
 HyperHDR current versions at: https://github.com/awawa-dev/HyperHDR/actions
 
-HyperHDR current versions for webOS at: [https://github.com](https://github.com/satgit62/satgit62.github.io/releases/download/v0.2.0-alpha/org.webosbrew.hyperhdr.loader_0.3.6_hyperk_all.ipk)
+HyperHDR current versions for webOS at: [https://github.com](https://github.com/satgit62/satgit62.github.io/releases/download/v0.2.0-alpha/org.webosbrew.hyperhdr.loader_0.3.7_all.ipk)
 
 Hyperion.NG current version for webOS at: [https://github.com](https://github.com/satgit62/satgit62.github.io/releases/download/v0.2.0-alpha/org.webosbrew.hyperion.ng.loader_0.2.2_Release_all.ipk)
 
