@@ -258,7 +258,9 @@ It has been observed that the LEDs briefly flash when Hyperk is used as an LED c
 
 This is because, for the brief moment the LUT is being decompressed, no LUT is available and HyperHDR switches to “Blank Frame” (black). As a result, the “HyperK” LED controller switches to the lighting presets (predefined colors/effects) until the LUT is decompressed and fully loaded.
 
+```
 **This error does not occur when using uncompressed LUT tables**.
+```
 
 Workaround for those who must continue to use the compressed LUT tables due to limited storage capacity:
 
