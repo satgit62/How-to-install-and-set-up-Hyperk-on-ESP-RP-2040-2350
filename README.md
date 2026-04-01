@@ -250,6 +250,23 @@ PS C:\esptool>
 Press the reset button to put the ESP32-S2 Mini into AP mode so that you can enter the Wi-Fi and password data for the initial installation.
 
 
+# Known Issues
+
+Since this firmware is still in an early stage of development, bugs may still occur.
+
+It has been observed that the LEDs briefly flash when Hyperk is used as an LED controller for HyperHDR on an LG webOS device and compressed LUT tables are used for SDR, HDR, and DV content.
+
+This is because, for the brief moment the LUT is being decompressed, no LUT is available and HyperHDR switches to “Blank Frame” (black). As a result, the “HyperK” LED controller switches to the lighting presets (predefined colors/effects) until the LUT is decompressed and fully loaded.
+
+**This error does not occur when using uncompressed LUT tables**.
+
+Workaround for those who must continue to use the compressed LUT tables due to limited storage capacity:
+
+In the HyperK web interface, under “Light Presets” for R, G, and B, set the value 0,0,0 as the “Default Color” and select the “Solid Color” option under “Default Effect.” Then save the settings. 
+
+Also ensure that no boot or background effects are enabled in HyperHDR under “Effects.”
+
+
 # ESP/compatible hardware
 You can find possible ESP/compatible hardware and circuit diagrams for using Hyperk in another guide I wrote. See: [Hardware and wiring diagram](https://github.com/satgit62/How-to-Install-and-set-up-Ambilight-on-LG-webOS#hardware-and-wiring-diagram)
 
