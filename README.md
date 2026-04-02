@@ -254,7 +254,7 @@ Press the reset button to put the ESP32-S2 Mini into AP mode so that you can ent
 
 Since this firmware is still in an early stage of development, bugs may still occur.
 
-It has been observed that the LEDs briefly flash when Hyperk is used as an LED controller for HyperHDR on an LG webOS device and compressed LUT tables are used for SDR, HDR, and DV content.
+It has been observed that the LEDs briefly flash when Hyperk is used as an LED controller for HyperHDR on an LG webOS device and compressed LUT tables are used for SDR, HDR, and DV content. The issue occurs within milliseconds when switching content (from SDR to HDR/Dolby Vision). The same issue also occurs when switching the video source.
 
 This is because, for the brief moment the LUT is being decompressed, no LUT is available and HyperHDR switches to “Blank Frame” (black). As a result, the “HyperK” LED controller switches to the lighting presets (predefined colors/effects) until the LUT is decompressed and fully loaded.
 
