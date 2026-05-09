@@ -2,7 +2,7 @@
 
 # How-to-install-and-set-up-Hyperk-on-ESP-RP-2040-2350
 
-A high-performance Wi-Fi/LAN LED controller for the ESP8266 and ESP32 families, including the WT32-ETH01, S2, S3, C2, C3, C5, and C6, as well as the Raspberry Pi Pico RP2040 and RP2350.
+A high-performance Wi-Fi/LAN LED controller for the ESP8266 and ESP32 families, including the WT32-ETH01, S2, S3, C2, C3, C5, and C6, as well as the Raspberry Pi Pico RP2040 and RP2350 (Only the Wi-Fi boards).
 
 * Initial support for custom boards: GLEDOPTO, DOMRAEM, Athom/IoTorero
 * Support for multi-segment (board-dependent) and power-relay control.
