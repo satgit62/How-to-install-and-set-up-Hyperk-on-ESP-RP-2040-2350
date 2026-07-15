@@ -20,6 +20,22 @@ This guide will show you how to install the Hyperk LED controller on ESP boards 
 
 Depending on which hardware you want to use for Hyperk, there are two possible approaches.
 
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+# Update from July 12, 2026:
+HyperSerial has been implemented in Hyperk test firmware version 0.0.5-alpha.1.
+For HyperSerial (enable first in Hyperk) to work, make sure to select the Adalight driver in HyperHDR:
+
+ * High-speed serial AWA protocol with data integrity check
+ * Correct baud rate and serial port
+ * Esp8266/ESP32/RP2040/RP2350 handshake
+ * Force HyperSerial detection
+   
+<img width="1836" height="1062" alt="Hyperk HyperSerial" src="https://github.com/user-attachments/assets/1d639e0c-b0fd-42f7-8a11-cf48548f80b2" />
+
+<img width="1457" height="722" alt="Hyperk S2 mini" src="https://github.com/user-attachments/assets/51d15c5c-590f-4c50-9692-da43d63708c8" />
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 # Option 1
 You have a brand new ESP board:
 
