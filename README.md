@@ -294,6 +294,8 @@ In the HyperK web interface, under “Light Presets” for R, G, and B, set the 
 
 Also ensure that no boot or background effects are enabled in HyperHDR under “Effects.”
 
+# Hyperk Wiki:
+https://wiki.hyperhdr.eu/Hyperk
 
 # ESP/compatible hardware
 You can find possible ESP/compatible hardware and circuit diagrams for using Hyperk in another guide I wrote. See: [Hardware and wiring diagram](https://github.com/satgit62/How-to-Install-and-set-up-Ambilight-on-LG-webOS#hardware-and-wiring-diagram)
