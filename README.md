@@ -23,12 +23,17 @@ Depending on which hardware you want to use for Hyperk, there are two possible a
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------
 # Update from July 12, 2026:
 HyperSerial has been implemented in Hyperk test firmware version 0.0.5-alpha.1.
-For HyperSerial (enable first in Hyperk) to work, make sure to select the Adalight driver in HyperHDR:
+For HyperSerial (enable first in Hyperk) to work, make sure to select the Adalight driver in HyperHDR or Hyperion.NG:
 
+# HyperHDR:
  * High-speed serial AWA protocol with data integrity check
  * Correct baud rate and serial port
  * Esp8266/ESP32/RP2040/RP2350 handshake
  * Force HyperSerial detection
+
+# Hyperion.NG 
+ * HyperSerial-High speed
+ * Correct baud rate and serial port
    
 <img width="1836" height="1062" alt="Hyperk HyperSerial" src="https://github.com/user-attachments/assets/1d639e0c-b0fd-42f7-8a11-cf48548f80b2" />
 
