@@ -173,6 +173,12 @@ Alternatively, you can also find the Hyperk LED controller under 'wled' or 'udpr
 <img width="1272" height="823" alt="udpraw" src="https://github.com/user-attachments/assets/a87833dd-b75a-467d-981d-7b9a8baeb52c" />
 
 
+# Now that the HyperSerial driver has been fully implemented in Hyperk v0.0.5, it can also be used as a HyperSerial LED controller in adalight.
+
+
+<img width="1191" height="886" alt="HyperHDR Hyperk adalight" src="https://github.com/user-attachments/assets/9f31728e-8ab6-4429-b0b1-b7b4e564c978" />
+
+
 # Hyperion.NG
 
 When using Hyperk with Hyperion.NG, you must select 'wled' or 'udraw' under LED Controllers in the LED Hardware menu.
@@ -186,6 +192,13 @@ If Autodiscovery does not find Hyperk under 'wled', enter the IP address of the 
 If you are using 'udraw', enter the IP address of the Hyperk LED controller and port 5568.
 
 <img width="1906" height="1079" alt="Hyperk udpraw" src="https://github.com/user-attachments/assets/fbda08a6-5dae-46dc-95c4-242d30262935" />
+
+
+# Now that the HyperSerial driver has been fully implemented in Hyperk v0.0.5, it can also be used as a HyperSerial LED controller in adalight.
+
+
+<img width="1847" height="861" alt="Hyperion NG Hyperk-HyperSerial" src="https://github.com/user-attachments/assets/96229131-2b65-4aa4-b8bd-f7e5f346eb34" />
+
 
 
 # EnigmaLight (Enigma2)
